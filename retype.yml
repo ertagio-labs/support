@@ -1,0 +1,41 @@
+input: ./docs
+output: .retype
+
+url: support.ertagio.com # Use your website address here
+
+start:
+  # Uncomment the next line to try Retype Pro features
+  # pro: true
+
+branding:
+  title: Ertagio Support
+
+links:
+  - text: Dashboard
+    link: https://ertagio.com/login
+    icon: desktop-download
+    target: blank
+
+  - text: Discord Server
+    link: https://join.ertagio.com
+    icon: comment-discussion
+    target: blank
+
+edit:
+  repo: "https://github.com/ertagio-labs/new-support/edit/"
+
+meta:
+  title: " | Ertagio Support"
+
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+
+  links:
+    - text: Service Status
+      link: https://status.ertagio.com
+      icon: meter
+      target: blank
+
+    - text: Contribute
+      link: https://github.com/ertagio-labs/support
+      icon: mark-github
